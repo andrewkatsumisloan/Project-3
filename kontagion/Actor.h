@@ -5,8 +5,6 @@
 
 class StudentWorld;
 
-// Students:  Add code to this file, Actor.cpp, StudentWorld.h, and StudentWorld.cpp
-
 
 //GraphObject(int imageID, double startX, double startY, Direction dir = 0, int depth = 0, double size = 1.0)
 //    : m_imageID(imageID), m_x(startX), m_y(startY), m_destX(startX), m_destY(startY),
@@ -53,9 +51,6 @@ public:
     }
     virtual ~Actor() {}
 
-    // You may add other public/private member functions and private data members to your
-    // dirt class as you see fit so long as you used good object oriented programming style
-    // (no duplication of functionality across classes).
 private:
     bool m_alive;
     bool m_isplayer;
